@@ -1,5 +1,5 @@
 {
-  "name": "ChatBot",
+  "name": "çat",
   "description": "Simple ChatBot in Telethon.",
   "logo": "https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png",
   "keywords": [
@@ -9,7 +9,7 @@
     "telegram-chatbot",
     "productivity"
   ],
-  "repository": "https://github.com/DevsExpo/ChatBot",
+  "repository": "https://github.com/babas/ChatBot",
   "website": "https://github.com/DevsExpo/ChatBot",
   "success_url": "https://github.com/DevsExpo/ChatBot",
   "env": {
@@ -28,11 +28,11 @@
     },
     "DUMB_CHAT": {
       "description": "Group ID Where Your Logs Will Go.",
-      "value": ""
+      "value": "-1001232064835"
     },
     "OWNER_ID": {
       "description": "Your Owner ID",
-      "value": ""
+      "value": "1225523"
     },
     "CUSTOM_START": {
       "description": "Custom Message For Start.",
@@ -41,11 +41,11 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "1225523"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "ec0ae6e668e4eaa669c536acf13c9f59"
     }
   },
   "addons": [
