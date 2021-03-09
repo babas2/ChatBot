@@ -18,13 +18,13 @@ from chatrobot.plugins.sql.checkuser_sql import get_all_users
 @god_only
 async def starkisnoob(event):
     starkisnoob = get_all_users()
-    await event.reply(f"<b>I have <u>{len(starkisnoob)}</u> Users In Database.</b>", parse_mode="HTML")
+    await event.reply(f"<b>I həv <u>{len(starkisnoob)}</u> user database.</b>", parse_mode="HTML")
 
 @chatbot_cmd("alive", is_args=False)
 @god_only
 async def stark(event):
-    await event.reply("<b><u>Yeah, I am Alive.</b></u>", parse_mode="HTML")
+    await event.reply("<b><u>Yes yaşayram.</b></u>", parse_mode="HTML")
 
 @chatbot_cmd("repo", is_args=False)
 async def stark(event):
-    await event.reply("<b><u>My Repo is Here :</b></u> <code>https://github.com/StarkGang/ChatBot</code>", parse_mode="HTML")
+    await event.reply("<b><u>My Repo :</b></u> <code>https://t.me/c0alaa</code>", parse_mode="HTML")
